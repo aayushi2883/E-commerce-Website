@@ -26,7 +26,7 @@ const orderSchema =  new mongoose.Schema({
         ref: "User"
     }
 },
-{timestamps: true});
+);
 
 const Order = mongoose.model("Order" , orderSchema);
 
